@@ -32,5 +32,5 @@ LOCAL_OVERRIDES_PACKAGES := com.qualcomm.location
 LOCAL_REQUIRED_MODULES := microg-sysconfig.xml default-permissions-com.google.android.gms.xml privapp-permissions-com.google.android.gms.xml
 LOCAL_PRODUCT_MODULE := true
 LOCAL_USES_LIBRARIES := com.android.location.provider
-LOCAL_OPTIONAL_USES_LIBRARIES := androidx.window.extensions androidx.window.sidecar
+LOCAL_OPTIONAL_USES_LIBRARIES := org.apache.http.legacy androidx.window.extensions androidx.window.sidecar
 include $(BUILD_PREBUILT)
